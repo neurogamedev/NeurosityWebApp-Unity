@@ -98,6 +98,7 @@ namespace Notion.Unity
 
                 // Cleanup of precedent panel for later use.
                 buttonLogin.GetComponentInChildren<Text>().text = "Login";
+                infoText.text = "";
                 buttonLogin.interactable = true;
             }
             catch (NullReferenceException) //If getting the devices was unsuccessful, let's inform the user.
