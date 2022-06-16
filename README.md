@@ -34,14 +34,13 @@ If you're more into design and less into coding, you can find my contributions i
 * [Json.NET by jilleJr](https://github.com/jilleJr/Newtonsoft.Json-for-Unity)
 * [External Dependency Manager](https://developers.google.com/unity/packages#external_dependency_manager_for_unity)
 
-Nota Bene: I tried using a higher version of Unity but some Firebase errors kept the project from working. I'll try to see how to fix this in later updates.
+Nota Bene: When updating to newer versions of Unity, be sure to update the external packages in *{Project Name}/Packages/* and in the `manifest.json` and `packages-lock.jason`.
 
 ## Using in Other Projects
 Other apps will require your own Firebase project, you can follow [Firebase Documentation](https://firebase.google.com/docs/unity/setup) for help on that. There is a stub setup for this repo but any app developed using the Notion Unity SDK will eventually require you to setup your own Firebase account. This is currently a requirement as the Neurosity tech is built on top of Firebase and the Unity Firebase SDKs require `google-services.json` and `GoogleService-Into.plist` to be unique for each store app.
 
 ## To Do
 
-- Update Unity and Firebase versions.
 - Fix Logout() warnings stemming from processes being interrupted mid-thread.
 - Check if Builds work in iOS and Android environments.
 
@@ -50,5 +49,3 @@ Other apps will require your own Firebase project, you can follow [Firebase Docu
 **Q: Why are there no questions here?**
 
 A: People haven't yet asked me questions to populate this section.
-
-
