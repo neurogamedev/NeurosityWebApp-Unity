@@ -28,7 +28,7 @@ If you want to modify how the handlers communicate with Unity, like I did, go to
 If you're more into design and less into coding, you can find my contributions in the *Assets/Scripts/WebApp* folder. It's inundated with comments about how things work. The NotionInterfacer is the prime candidate for a singleton, since you may not want to relog every time you change scenes. Up to you, really. 
 
 ## Development Environment
-* [Unity 2021.3.4f1 LTS](https://unity3d.com/get-unity/download/archive)
+* [Unity 2022.1.5f1](https://unity3d.com/get-unity/download/archive)
 * [Firebase for Unity Authentication](https://developers.google.com/unity/packages#firebase_authentication)
 * [Firebase for Unity Realtime Database](https://developers.google.com/unity/packages#firebase_realtime_database)
 * [Json.NET by jilleJr](https://github.com/jilleJr/Newtonsoft.Json-for-Unity)
