@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 /// <summary>
 /// This code is based on Ryan Turney's Notion SDK for Unity (https://github.com/ryanturney/notion-unity).
-/// As he puts it, the architecture may not be soud, so be careful when Building for mobile or when upgrading beyond Unity 2020.3.15f1
+/// As he puts it, the architecture may not be soud, so be careful when Building for mobile or when updating dependencies.
 /// This script is conceived to provide Unity with data from the Neurosity Crown or Notion so that you can just worry about designing a game.
 /// Enjoy! - Diego Saldivar
 /// </summary>
