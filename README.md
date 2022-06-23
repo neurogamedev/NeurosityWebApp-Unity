@@ -36,16 +36,15 @@ If you're more into design and less into coding, you can find my contributions i
 
 Nota Bene: When updating to newer versions of Unity, be sure to update the external packages in *{Project Name}/Packages/* and in the `manifest.json` and `packages-lock.jason`.
 
-## Using in Other Projects
+## Using in Other Projects and Distributing your Game
 Other apps will require your own Firebase project, you can follow [Firebase Documentation](https://firebase.google.com/docs/unity/setup) for help on that. There is a stub setup for this repo but any app developed using the Notion Unity SDK will eventually require you to setup your own Firebase account. This is currently a requirement as the Neurosity tech is built on top of Firebase and the Unity Firebase SDKs require `google-services.json` and `GoogleService-Into.plist` to be unique for each store app.
 
 ## To Do
 
 - Fix Logout() warnings stemming from processes being interrupted mid-thread.
-- Check if Builds work in iOS and Android environments.
 
 ## Frequently Asked Questions
 
-**Q: Why are there no questions here?**
+**Q: Can this be used for mobile?**
 
-A: People haven't yet asked me questions to populate this section.
+A: Yes it can. You may have to make your own GUI interface for the Pause menu, but the Starter Assets have ready-to-use mobile UI and GUI. Be ready to open the can of worms that is building for mobile. As an Android user, I can share that you'll be banging your head against the wall to Build your first mobile app from Unity, neurogame or not. Your mileage may vary depending on whether Unity finally decides to properly support Android development. Haven't tried to build for iOS, yet...
